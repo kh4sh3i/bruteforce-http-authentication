@@ -14,7 +14,7 @@ python3 python3 brute.py -w http://site.com  -u username -f passwords.txt  -m di
 
 ### Arguments
 ```json 
-    -w: url (https://test.com
+    -w: url (https://test.com)
     -u: username
     -f: dictionary file
     -m: method (basic or digest)
