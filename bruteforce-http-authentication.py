@@ -99,7 +99,10 @@ def launcher_threads(passwords,threads,username,url,method):
             except KeyboardInterrupt:
                 print ("[!!] Interrupted!")
                 sys.exit()
-            thread.join()            
+            thread.join()
+        if hit == "0":
+            print ("[+] Attack finished!")
+            sys.exit()
 
 if __name__ == "__main__":
     try:
